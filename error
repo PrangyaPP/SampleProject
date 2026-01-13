@@ -1,0 +1,16 @@
+Resource path: /conf/rcg-app-2-0/settings/dam/cfm/models/your-adventure-awaits/jcr:content/model/cq:dialog/content/items/1768293606246
+Resource metadata: {sling.modificationTime=-1, sling.characterEncoding=null, sling.contentType=null, sling.creationTime=-1, sling.contentLength=-1, sling.resolutionPath=/conf/rcg-app-2-0/settings/dam/cfm/models/your-adventure-awaits/jcr:content/model/cq:dialog/content/items/1768293606246}
+Resource type: dam/cfm/models/editor/components/datatypeproperties/translatablefield
+Resource super type: -
+Resource properties
+jcr:primaryType: nt:unstructured
+listOrder: 21
+valueType: string/multiline
+showEmptyInReadOnly: true
+metaType: text-multi
+cfm-element: des
+name: des
+checked: false
+sling:resourceType: dam/cfm/admin/components/authoring/contenteditor/multieditor
+renderReadOnly: false
+default-mime-type: text/html
