@@ -21,3 +21,9 @@ GET /mnt/overlay/dam/cfm/models/editor/content/editor.html/conf/rcg-app-2-0/sett
 
 Java Runtime	Java(TM) SE Runtime Environment(build 1.8.0_371-b11)
 Java Virtual Machine	Java HotSpot(TM) 64-Bit Server VM(build 25.371-b11, mixed mode)
+
+coralui3.min.js:2027 Uncaught TypeError: Cannot read properties of undefined (reading 'shellMenuButton')
+    at coralui3.min.js:2027:58
+(anonymous) @ coralui3.min.js:2027Understand this error
+
+this line  this._elements.shellMenuButton.getElementsByTagName("coral-icon")[0].setAttribute("alt", this.title)
