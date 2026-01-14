@@ -18,3 +18,6 @@ default-mime-type: text/html
 
 
 GET /mnt/overlay/dam/cfm/models/editor/content/editor.html/conf/rcg-app-2-0/settings/dam/cfm/models/test HTTP/1.1] org.apache.sling.servlets.get.impl.DefaultGetServlet No renderer for extension html, cannot render resource TypeOverwritingResourceWrapper, type=dam/cfm/models/editor/components/datatypeproperties/translatablefield, path=/mnt/overlay/dam/cfm/models/editor/content/editor/jcr:content/body/items/wizard/items/editorStep/items/content/items/{{field_id}}, resource=[TypeOverwritingResourceWrapper, type=dam/cfm/models/editor/components/datatypes/field, path=/mnt/overlay/dam/cfm/models/editor/content/editor/jcr:content/body/items/wizard/items/editorStep/items/content/items/{{field_id}}, resource=[FormResourceImpl, type=, path=/mnt/overlay/dam/cfm/models/editor/content/editor/jcr:content/body/items/wizard/items/editorStep/items/content/items/{{field_id}}]]
+
+Java Runtime	Java(TM) SE Runtime Environment(build 1.8.0_371-b11)
+Java Virtual Machine	Java HotSpot(TM) 64-Bit Server VM(build 25.371-b11, mixed mode)
