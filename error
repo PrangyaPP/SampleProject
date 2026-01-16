@@ -35,7 +35,14 @@ this line  this._elements.shellMenuButton.getElementsByTagName("coral-icon")[0].
 16.01.2026 00:44:00.746 *ERROR* [10.18.187.102 [1768542240745] GET /content/excalibur/en/OLCI.thumb.48.48.png HTTP/1.1] org.apache.jsp.libs.cq.Page.thumb_png_jsp resource has no content. path=/content/excalibur/en/OLCI.thumb.48.48.png referrer=null
 
 /libs/cq/graphql/sites/graphiql/components/content/explorer/explorer.html
-
+granite.min.js:7 
+ PUT http://172.23.58.77:4502/graphql/persist.json/app-2-0/test-query 409 (Conflict)
+XMLHttpRequest.send	@	granite.min.js:7
+value	@	app.min.js:98
+value	@	app.min.js:75
+value	@	app.min.js:76
+xb	@	plugins.min.js:1723
+Xb	@	plugins.min.js:1729
 http://172.23.58.77:4502/graphql/execute.json/app-2-0/your-adventure-awaits gives 
 
 {
