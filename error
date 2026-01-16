@@ -27,3 +27,11 @@ coralui3.min.js:2027 Uncaught TypeError: Cannot read properties of undefined (re
 (anonymous) @ coralui3.min.js:2027Understand this error
 
 this line  this._elements.shellMenuButton.getElementsByTagName("coral-icon")[0].setAttribute("alt", this.title)
+16.01.2026 00:30:00.066 *ERROR* [10.18.187.104 [1768541392457] GET /aem/graphiql.html HTTP/1.1] org.apache.sling.servlets.get.impl.DefaultGetServlet No renderer for extension html, cannot render resource FilteringResourceWrapper, type=cq/graphql/sites/graphiql/components/explorer/config, path=/mnt/overlay/cq/graphql/sites/graphiql/jcr:content/explorer/content/items/graphiqlconfig, resource=[MergedResource [path=/mnt/overlay/cq/graphql/sites/graphiql/jcr:content/explorer/content/items/graphiqlconfig, resources=[/libs/cq/graphql/sites/graphiql/jcr:content/explorer/content/items/graphiqlconfig]]]
+16.01.2026 00:31:25.730 *ERROR* [10.18.187.104 [1768541485727] GET /home/users/4/4D6eNpCcOS8hUxypjSK3.preferences.json HTTP/1.1] com.day.cq.security.impl.AbstractHTMLResponseServlet Authorizable | com.adobe.granite.security.user.internal.UserPropertiesImpl@5d59678b
+16.01.2026 00:37:30.124 *ERROR* [10.18.187.104 [1768541850123] GET /home/users/4/4D6eNpCcOS8hUxypjSK3.preferences.json HTTP/1.1] com.day.cq.security.impl.AbstractHTMLResponseServlet Authorizable | com.adobe.granite.security.user.internal.UserPropertiesImpl@7c27932e
+16.01.2026 00:43:58.924 *ERROR* [10.18.187.102 [1768542238924] GET /content/excalibur/en/libraries.thumb.48.48.png HTTP/1.1] org.apache.jsp.libs.cq.Page.thumb_png_jsp resource has no content. path=/content/excalibur/en/libraries.thumb.48.48.png referrer=null
+16.01.2026 00:44:00.058 *ERROR* [10.18.187.102 [1768542240057] GET /content/excalibur/en/tools.thumb.48.48.png HTTP/1.1] org.apache.jsp.libs.cq.Page.thumb_png_jsp resource has no content. path=/content/excalibur/en/tools.thumb.48.48.png referrer=null
+16.01.2026 00:44:00.746 *ERROR* [10.18.187.102 [1768542240745] GET /content/excalibur/en/OLCI.thumb.48.48.png HTTP/1.1] org.apache.jsp.libs.cq.Page.thumb_png_jsp resource has no content. path=/content/excalibur/en/OLCI.thumb.48.48.png referrer=null
+
+/libs/cq/graphql/sites/graphiql/components/content/explorer/explorer.html
