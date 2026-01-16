@@ -35,3 +35,38 @@ this line  this._elements.shellMenuButton.getElementsByTagName("coral-icon")[0].
 16.01.2026 00:44:00.746 *ERROR* [10.18.187.102 [1768542240745] GET /content/excalibur/en/OLCI.thumb.48.48.png HTTP/1.1] org.apache.jsp.libs.cq.Page.thumb_png_jsp resource has no content. path=/content/excalibur/en/OLCI.thumb.48.48.png referrer=null
 
 /libs/cq/graphql/sites/graphiql/components/content/explorer/explorer.html
+
+http://172.23.58.77:4502/graphql/execute.json/app-2-0/your-adventure-awaits gives 
+
+{
+  "sling:resourceSuperType": "sling/bundle/resource",
+  "servletClass": "com.adobe.aem.graphql.impl.servlet.PersistedQueryServlet",
+  "sling:resourceType": "/graphql/execute.servlet",
+  "servletName": "com.adobe.aem.graphql.impl.servlet.PersistedQueryServlet"
+}
+but http://localhost:4504/graphql/execute.json/app-2-0/your-adventure-awaits gives {
+  "data": {
+    "yourAdventureAwaitsList": {
+      "items": [
+        {
+          "title": "Your adventure waits",
+          "topContent": {
+            "plaintext": "Book your dream cruise and score major savings."
+          },
+          "image": {
+            "_path": "/content/dam/image1.jpg",
+            "_authorUrl": "http://localhost:4502/content/dam/image1.jpg"
+          },
+          "linkTitle": "Limited time offer",
+          "linkUrl": "http://google.com",
+          "boldText": "Last Chance Cyber Sale ",
+          "bottomcontent": {
+            "plaintext": "Get upto $900 off + your 3rd & 4th guests sail free."
+          }
+        }
+      ]
+    }
+  }
+}
+
+V
